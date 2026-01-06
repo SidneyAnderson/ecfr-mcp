@@ -312,7 +312,7 @@ Linux variant:
 }
 ```
 
-After editing, **restart Claude Desktop** so it reloads the MCP configuration.
+After editing, **restart Claude Desktop** so it reloads the MCP configuration. Make sure the Claude system tray instance is also closed. If you are unsure, reboot.
 
 ### 🧪 Test Prompt
 
