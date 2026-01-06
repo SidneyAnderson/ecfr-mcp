@@ -418,7 +418,6 @@ ecfr-mcp/
 ├─ package.json                        Project metadata and dependencies
 ├─ package-lock.json                   Dependency lock file
 ├─ readme.md                           Project documentation
-├─ readme.pdf                          Printable / distribution copy
 ├─ tsconfig.json                       TypeScript configuration
 ├─ LICENSE                             Restrictive license
 └─ .gitignore                          Build + dependency exclusion rules
