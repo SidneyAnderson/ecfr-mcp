@@ -420,6 +420,7 @@ ecfr-mcp/
 ├─ readme.md                           Project documentation
 ├─ readme.pdf                          Printable / distribution copy
 ├─ tsconfig.json                       TypeScript configuration
+├─ LICENSE                             Restrictive license
 └─ .gitignore                          Build + dependency exclusion rules
 ```
 
