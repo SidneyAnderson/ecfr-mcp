@@ -427,13 +427,6 @@ Issues and PRs are welcome!
 - File bugs, questions, or feature requests here:\
   [https://github.com/sidneyanderson/ecfr-mcp/issues](https://github.com/sidneyanderson/ecfr-mcp/issues)
 
-Planned enhancements:
-
-- optional semantic search modes
-- structured CFR navigation helpers
-- richer XML → JSON transforms
-- optional RAG context exporters
-
 ---
 
 ## 🏛️ Disclaimer
