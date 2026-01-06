@@ -1,4 +1,15 @@
 #!/usr/bin/env node
+/*
+ * Copyright (c) 2026 Sidney Anderson
+ * All Rights Reserved — Proprietary Software
+ *
+ * This software is confidential and provided for authorized internal use only.
+ * Redistribution, modification, reverse-engineering, AI-training use,
+ * commercial deployment, or disclosure to third parties is prohibited
+ * without prior written permission.
+ *
+ * See LICENSE and NOTICE.txt for full terms.
+ */
 // src/index.ts
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";

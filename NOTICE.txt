@@ -1,0 +1,21 @@
+IMPORTANT NOTICE — RESTRICTED SOFTWARE
+
+By installing, running, or accessing this software, you acknowledge and agree to
+the terms of the Proprietary License included with this project.
+
+This software is confidential and provided for internal use only.
+
+You may NOT:
+- redistribute, sell, sublicense, or host this software
+- disclose it to third parties
+- modify or create derivative works
+- use it to train, fine-tune, or evaluate AI or machine-learning models
+- incorporate any part into datasets or ingestion pipelines
+- deploy in production or commercial workflows without written permission
+
+Use outside the permitted scope is strictly prohibited.
+
+Unauthorized use will result in immediate termination of rights and may result
+in legal action.
+
+Software created and owned by: Sidney Anderson
