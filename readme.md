@@ -410,12 +410,17 @@ Copy the stack trace into a GitHub issue.
 
 ```
 ecfr-mcp/
- ├─ src/              TypeScript source
- ├─ build/            Compiled MCP server
- ├─ scripts/          Optional helper utilities
- ├─ package.json
- ├─ tsconfig.json
- └─ README.md
+├─ src/                                TypeScript source (MCP server logic)
+├─ build/                              Compiled MCP server (Node-ready JS)
+├─ scripts/                            Optional helper / maintenance utilities
+├─ COMMERCIAL_LICENSE_REQUEST.md       Commercial license request form
+├─ NOTICE.txt                          Mandatory usage & restriction notice
+├─ package.json                        Project metadata and dependencies
+├─ package-lock.json                   Dependency lock file
+├─ readme.md                           Project documentation
+├─ readme.pdf                          Printable / distribution copy
+├─ tsconfig.json                       TypeScript configuration
+└─ .gitignore                          Build + dependency exclusion rules
 ```
 
 ---
