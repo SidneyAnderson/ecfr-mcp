@@ -58,6 +58,7 @@ Once installed, the MCP server exposes these tools:
 | `ecfr_get_title_versions`  | Lists issue dates/versions for a title (filters for issue_date, part, section)         |
 | `ecfr_get_title_ancestry`  | Retrieves the full title hierarchy for a given date                                     |
 | `ecfr_get_section_content` | Retrieves section content by structure index/section (XML fallback for 404s)           |
+| `ecfr_get_corrections`     | Fetches correction notices (filter by title/date/error_corrected)                      |
 | `ecfr_compare_title_dates` | Compares structures between two dates and reports added/removed/modified sections      |
 | `ecfr_get_recent_changes`  | Convenience wrapper to compare over a trailing window (e.g., last 180 days)            |
 
@@ -425,6 +426,7 @@ ecfr-mcp/
 ├─ NOTICE.txt                          Mandatory usage & restriction notice
 ├─ package.json                        Project metadata and dependencies
 ├─ package-lock.json                   Dependency lock file
+├─ readme.pdf                          PDF rendering of this README
 ├─ readme.md                           Project documentation
 ├─ tsconfig.json                       TypeScript configuration
 ├─ LICENSE                             Restrictive license
