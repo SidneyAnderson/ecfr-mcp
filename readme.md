@@ -45,22 +45,20 @@ It transforms LLMs from *guessing about regulations* into *querying official dat
 
 Once installed, the MCP server exposes these tools:
 
-| Tool                  | Description                                                                   |
-| --------------------- | ----------------------------------------------------------------------------- |
-| `ecfr_search_results`      | Full‑text regulation search (JSON results)                                               |
-| `ecfr_search_with_date_range` | Search with optional title + date window filters (start/end)                        |
-| `ecfr_search_summary`      | Aggregated search summaries / counts                                                   |
-| `ecfr_list_titles`         | Lists all CFR titles and metadata                                                      |
-| `ecfr_list_agencies`       | Lists agencies and CFR authority assignments                                           |
-| `ecfr_get_title_xml`       | Retrieves full XML snapshot of a CFR title (with optional part/section hints)          |
-| `ecfr_get_part_xml`        | Retrieves XML for a specific part to avoid large title payloads                        |
-| `ecfr_get_title_structure` | Retrieves title hierarchy (JSON by default, XML optional)                              |
-| `ecfr_get_title_versions`  | Lists issue dates/versions for a title (filters for issue_date, part, section)         |
-| `ecfr_get_title_ancestry`  | Retrieves the full title hierarchy for a given date                                     |
-| `ecfr_get_section_content` | Retrieves section content by structure index/section (XML fallback for 404s)           |
-| `ecfr_get_corrections`     | Fetches correction notices (filter by title/date/error_corrected)                      |
-| `ecfr_compare_title_dates` | Compares structures between two dates and reports added/removed/modified sections      |
-| `ecfr_get_recent_changes`  | Convenience wrapper to compare over a trailing window (e.g., last 180 days)            |
+- `ecfr_search_results` – Full‑text search (JSON results)
+- `ecfr_search_with_date_range` – Search with optional title + date window filters
+- `ecfr_search_summary` – Aggregated search summaries / counts
+- `ecfr_list_titles` – CFR titles and metadata
+- `ecfr_list_agencies` – Agencies and CFR authority assignments
+- `ecfr_get_title_xml` – Full title XML (optional part/section hints)
+- `ecfr_get_part_xml` – XML for a specific part (smaller payload)
+- `ecfr_get_title_structure` – Title hierarchy (JSON default, XML optional)
+- `ecfr_get_title_versions` – Issue dates/versions (filters for issue_date, part, section)
+- `ecfr_get_title_ancestry` – Full title hierarchy for a given date
+- `ecfr_get_section_content` – Section content by structure index/section (XML fallback)
+- `ecfr_get_corrections` – Correction notices (filter by title/date/error_corrected)
+- `ecfr_compare_title_dates` – Compare structures between two dates (added/removed/modified)
+- `ecfr_get_recent_changes` – Convenience wrapper for a trailing window (e.g., last 180 days)
 
 These tools support workflows where the LLM can:
 
