@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  * Copyright (c) 2026 Sidney Anderson
  * All Rights Reserved — Proprietary Software

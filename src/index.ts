@@ -651,7 +651,7 @@ async function main() {
           data: {
             title,
             versions: filteredDates.map((d) => {
-              const sample = versions.find((v) => (v.issue_date || v.date) === d);
+              const sample = versions.find((v) => (v.issue_date || v.date) === d) as any;
               if (part && sample?.part && String(sample.part) !== String(part)) return null;
               if (
                 section &&
